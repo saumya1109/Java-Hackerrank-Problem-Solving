@@ -9,6 +9,14 @@ public class Solution {
         String A=sc.next();
         String B=sc.next();
         /* Enter your code here. Print output to STDOUT. */
+		
+		
+		/* --If the two elements (a,b) being compared are already in the right order, compare(a, b) and a.compareTo(b) both return a value that is <= 0, so nothing has to happen.
+
+        --If they aren't in the right order, the return value is > 0, indicating that they must be interchanged
+		
+		
+		*/
         
         System.out.println(sumOfStrings(A,B));
         System.out.println(checkGreater(A,B));
