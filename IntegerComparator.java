@@ -5,6 +5,20 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+
+/*
+Integer.compare(num2, num1) is a method call that compares two integer values num2 and num1. 
+It returns an integer value that indicates the ordering of these two numbers:
+
+If num2 is less than num1, it returns a negative integer.
+If num2 is equal to num1, it returns 0.
+If num2 is greater than num1, it returns a positive integer
+
+
+Integer.compare(num1, num2) compares two integers in ascending order,
+ while Integer.compare(num2, num1) compares them in descending order.
+*/
+
 class IntegerComparator implements Comparator<Integer> {
 
 	@Override
