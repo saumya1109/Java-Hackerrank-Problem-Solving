@@ -23,7 +23,13 @@ class Result {
      */
 
     public static int designerPdfViewer(List<Integer> h, String word) {
-    // Write your code here
+    /* This problem becomes so easy once you think about how can you get the height of each character from the list of heights given.
+
+	The expression 'b' - 'a' calculates the difference between the Unicode values of the characters 'b' and 'a'.
+
+	Example: The Unicode value of 'a' is 97. The Unicode value of 'b' is 98. So, 'b' - 'a' is equivalent to 98 - 97, which equals 1. 
+
+*/
     
     int length=word.length();
     int height=0;
