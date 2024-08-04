@@ -12,7 +12,6 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
      * Complete the 'beautifulDays' function below.
      *
      * The function is expected to return an INTEGER.
@@ -20,7 +19,8 @@ class Result {
      *  1. INTEGER i
      *  2. INTEGER j
      *  3. INTEGER k
-     */
+
+
 
     public static int beautifulDays(int i, int j, int k) {
     // Write your code here
